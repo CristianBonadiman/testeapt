@@ -10,7 +10,7 @@ User Function MA120BUT()
 	Local cFilSC7 := SC7->C7_FILIAL
 	Local cPedido := SC7->C7_NUM
 	aBotao := {}
-	//Consulta/Inclus„o do HistÛrico do Cliente (Log ZZK)
+	//Consulta/Inclus√£o do Hist√≥rico do Cliente (Log ZZK)
 	if !Inclui
 		AAdd(aBotao,{"S4WB007N",{ || U_ACOMP011(cFilSC7,cPedido) } ,"Hist Ped"})
 		//Consulta Coleta de Frete do pedido

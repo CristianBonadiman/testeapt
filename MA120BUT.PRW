@@ -4,6 +4,8 @@
 //Responsavel: Leonor
 //Data: 17/05/11                      
 
+//ALTERA«√O TESTE COMMIT
+
 User Function MA120BUT()
 **********************
 	Local aArea  := GetArea()
@@ -18,8 +20,7 @@ User Function MA120BUT()
 	endif
 	RestArea(aArea)
 Return(aBotao) 
-git tag -a v1.0.0 -m "Primeira vers√£o"
-git push origin v1.0.0
+
 
 
 

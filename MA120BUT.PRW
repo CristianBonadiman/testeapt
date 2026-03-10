@@ -18,5 +18,8 @@ User Function MA120BUT()
 	endif
 	RestArea(aArea)
 Return(aBotao) 
+git tag -a v1.0.0 -m "Primeira versão"
+git push origin v1.0.0
+
 
 
